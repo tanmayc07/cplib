@@ -1,5 +1,6 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 16 | CP31 | Jagged_Swaps | TONA | The constraint that we can only swap from i>=2 makes it so that first element should be smallest i.e 1 because then we can shift the largest element to the end and do the same thing with the next largest considering n = n-1. | Mar 30 | ⏳ |
 | Mar 14 | CF | Bingo_Candies | A | Successful arrangement depended onhow often a particular element is present. Struggled to find the correct equation. proof is like if there are n rows, at least one row should have distinct elements to be able to rearrange succcesfully. | Mar 29 | ⏳ |
 | Mar 15 | CP31 | Game_With_Integers | 909A | Since vanya moves first always, checking the remainder of n gives 2 possibilities - 1,2. In both cases vanya can win either by subtracting 1 or adding 1 to make it divisible by 3. I missed this part because I thought vanya would add 1 always and then how will it be divisible by 3 then. If the remainder is 0 then it means vova will win since if vanya adds or subtracts, it will not be divisible by 3 and vova would simply undo it. | Mar 29 | ⏳ |
 | Mar 14 | CP31 | Line_Trip | 1901A | Max gap logic; 2*(x-last) for the final leg. | Mar 28 | ⏳ |
