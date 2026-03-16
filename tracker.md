@@ -1,6 +1,6 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mar 14 | CONTEST | Bingo_Candies | A | Successful arrangement depended onhow often a particular element is present. Struggled to find the correct equation. proof is like if there are n rows, at least one row should have distinct elements to be able to rearrange succcesfully. | Mar 29 | ⏳ |
+| Mar 14 | CF | Bingo_Candies | A | Successful arrangement depended onhow often a particular element is present. Struggled to find the correct equation. proof is like if there are n rows, at least one row should have distinct elements to be able to rearrange succcesfully. | Mar 29 | ⏳ |
 | Mar 15 | CP31 | Game_With_Integers | 909A | Since vanya moves first always, checking the remainder of n gives 2 possibilities - 1,2. In both cases vanya can win either by subtracting 1 or adding 1 to make it divisible by 3. I missed this part because I thought vanya would add 1 always and then how will it be divisible by 3 then. If the remainder is 0 then it means vova will win since if vanya adds or subtracts, it will not be divisible by 3 and vova would simply undo it. | Mar 29 | ⏳ |
 | Mar 14 | CP31 | Line_Trip | 1901A | Max gap logic; 2*(x-last) for the final leg. | Mar 28 | ⏳ |
 | Mar 14 | CP31 | Cover_In_Water | 911A | if x-i, x+i cells are filled with water then because of constraint 2, we can always replace other empty cells with water from x because it will keep getting refilled from x-i and x+i | Mar 28 | ⏳ |
