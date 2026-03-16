@@ -27,7 +27,7 @@ for _ in range(t):
         
     flag = True
     for i in range(len(freq)):
-        if freq[i] >= ((n*n)//2+1):
+        if freq[i] > ((n*n)-n):
             flag = False
             break
         
