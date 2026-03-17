@@ -31,7 +31,7 @@ def init_problem():
     slug = input("Short Name: ").strip().lower().replace(" ", "_")
     file_path = folder_path / f"{p_id}_{slug}.py"
             
-    template = Path("base/template.py")
+    template = Path("base/template_iter.py")
     if template.exists():
         shutil.copy(template, file_path)
     else:
