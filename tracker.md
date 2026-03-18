@@ -1,5 +1,8 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 18 | KENKOOO | Qualification_Simulator | CODEFEST2016B | Easy Simulation of the problem because we can do it linearly and satisfies the constraints. | Apr 01 | ⏳ |
+| Mar 18 | CP31 | Goals_Of_Victory | 902A | Purely observational, because sum(efficiencies)=0 as the number of goals scored for every time minus their opponent should cancel out each other. It is a zero sum property problem. | Apr 01 | ⏳ |
+| Mar 18 | CP31 | How_Much_Does_Daytona_Cost | 900A | We just check for existence of element of in array since a subsegment of length 1 with the target element will always satisfy most common constraint and even the sample TC confirm it. | Apr 01 | ⏳ |
 | Mar 17 | CP31 | Dont_Try_To_Count | 903A | Since the constraints are small, we can simulate the doubling of the string and check if the target substring is present until the string is just big enough (Log2(M/N)). Log2(M/N) because if we have length of M and we want to reach length of M, we can do it like -> M = N*(2^i) and applying log on both sides, i = Log2(M/N). For programming looping for 7 iterations is generally enough, any more leads to exponential growth (O(2^i)). | Mar 31 | ⏳ |
 | Mar 17 | KENKOOO | Rally | ABC156C | The cost of stamina will be minimized if we choose a meeting point somewhere between all the points since it is a quadratic function(negative also goes positive after squaring). | Mar 31 | ⏳ |
 | Mar 17 | KENKOOO | Power_Socket | ABC139_B | Off By One problem, the cost is 1 socket for every addition of power strip and the goal is to add B-1 sockets. | Mar 31 | ⏳ |
