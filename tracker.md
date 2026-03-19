@@ -1,5 +1,9 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 19 | CP31 | Ambitious_Kid | COMPFEST15A | Since we want the product to be 0, we need an element which is closest to 0, implies that we need to find a absolute min element (m = min(m, abs(e))). | Apr 02 | ⏳ |
+| Mar 19 | CP31 | Target_Practice | 898C | Instead of hardcoding the if conditions which is not scalable for arbitrary N, we can simply find horizontal and vertical distance of X in the grid which is just min(i, N-i, j, N-j) and add 1 to it for the points tally. | Apr 02 | ⏳ |
+| Mar 19 | KENKOOO | Can_You_Solve_This | ABC121B | Easy simulation, just loop and check it. | Apr 02 | ⏳ |
+| Mar 19 | KENKOOO | Tax_Rate | SUMITB2019B | We can go from 1 to N and multiply with 1.08 to check if it is equal to N. I used round() to round X but round() is not good to use. int() helps in rounding to nearest integer which is a floor function. | Apr 02 | ⏳ |
 | Mar 18 | KENKOOO | Qualification_Simulator | CODEFEST2016B | Easy Simulation of the problem because we can do it linearly and satisfies the constraints. | Apr 01 | ⏳ |
 | Mar 18 | CP31 | Goals_Of_Victory | 902A | Purely observational, because sum(efficiencies)=0 as the number of goals scored for every time minus their opponent should cancel out each other. It is a zero sum property problem. | Apr 01 | ⏳ |
 | Mar 18 | CP31 | How_Much_Does_Daytona_Cost | 900A | We just check for existence of element of in array since a subsegment of length 1 with the target element will always satisfy most common constraint and even the sample TC confirm it. | Apr 01 | ⏳ |
