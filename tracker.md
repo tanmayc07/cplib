@@ -1,5 +1,8 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 21 | CF | Problema | A | The constraint that combat power of monsters can be raised using k and that it can be only raised till a[i]<=C means that we should sort the array first and then calculate the combat power value increase for OtterZ using min(k, C-arr[i]) | Apr 04 | ⏳ |
+| Mar 21 | ATCODER | Split_Ticketing | ABC450B | Easy simulation to check if the cost is maximum but the matrix
+needs to be initialized properly. | Apr 04 | ⏳ |
 | Mar 20 | CP31 | United_We_Stand | 892A | As per the constraints, since we want both of the arrays to be non-empty and only c array has constraint that it should not contain divisor of any element in b, we can just fill b with minimum element from a array and repeat it for all occurrences since we can't add it to c. | Apr 03 | ⏳ |
 | Mar 20 | CP31 | Sequence_Game | 894B | Since the first element will always be fixed, we can keep checking if the next element is smaller than or equal to previous element and if it isn't we can just repeat the current element in our result array. | Apr 03 | ⏳ |
 | Mar 20 | KENKOOO | Bishop | PANASONIC2020B | Since bishop can only move diagonally, atleast half of the grid's cells can be covered implies the formula. Edge case is when h==1 or w==1 then we don't have diagonals. | Apr 03 | ⏳ |
