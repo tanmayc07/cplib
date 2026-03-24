@@ -1,5 +1,7 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 24 | CP31 | Desorting | 887A | Kept thinking 2/2=0 lol. To make array unsorted we need to find min non-negative diff adjacent pair of elements. We can derive the answer from the diff. | Apr 07 | ⏳ |
+| Mar 24 | KENKOOO | 1_21 | ABC086B | Easy simulation. Loop only for n//2 iterations. | Apr 07 | ⏳ |
 | Mar 23 | CP31 | Array_Coloring | 891A | Struggled and overcomplicated with nested if conditions. Parity of an array or set changes if odd element is added to it. So number of odd elements will decide we can split the array or set into two equal parity array or set. Num of odd elements should be even. | Apr 06 | ⏳ |
 | Mar 23 | CP31 | Buttons | 893A | Depends on c. The idea is that to win the game, either of them needs to have total buttons greater than the other person has. if c is odd and a>=b, a wins else b wins, and if c is even and a>b, a wins else b wins. | Apr 06 | ⏳ |
 | Mar 23 | KENKOOO | Bingo | ABC157B | Just loop over the grid and mark if the given numbers exist in a seperate array. Then we can use this new array to figure out. Struggling with kind of grid problems. | Apr 06 | ⏳ |
