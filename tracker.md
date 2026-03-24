@@ -1,5 +1,8 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 23 | CP31 | Array_Coloring | 891A | Struggled and overcomplicated with nested if conditions. Parity of an array or set changes if odd element is added to it. So number of odd elements will decide we can split the array or set into two equal parity array or set. Num of odd elements should be even. | Apr 06 | ⏳ |
+| Mar 23 | CP31 | Buttons | 893A | Depends on c. The idea is that to win the game, either of them needs to have total buttons greater than the other person has. if c is odd and a>=b, a wins else b wins, and if c is even and a>b, a wins else b wins. | Apr 06 | ⏳ |
+| Mar 23 | KENKOOO | Bingo | ABC157B | Just loop over the grid and mark if the given numbers exist in a seperate array. Then we can use this new array to figure out. Struggling with kind of grid problems. | Apr 06 | ⏳ |
 | Mar 22 | CF | Bus_Lanes | CodeSquareRound1B | Was able to come up with the logic but did it brute force and got TLE. It uses prefix sum range update technique aka difference array. | Apr 05 | ⏳ |
 | Mar 21 | CF | Flip_Flops | DIV21087A | The constraint that combat power of monsters can be raised using k and that it can be only raised till a[i]<=C means that we should sort the array first and then calculate the combat power value increase for OtterZ using min(k, C-arr[i]) | Apr 04 | ⏳ |
 | Mar 21 | ATCODER | Split_Ticketing | ABC450B | Easy simulation to check if the cost is maximum but the matrix
