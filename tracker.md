@@ -1,5 +1,7 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 26 | CP31 | Grasshopper_On_A_Line | EDU149A | Since the constraint is about divisor of x, if x is divisible by k, we can simply form a pair using (k+1,x-k-1) giving us min elements as 2, and if it is not divisible then we can  directly jump to x. If x itself is smaller than k, then we can directly jump to x. | Apr 09 | ⏳ |
+| Mar 25 | CP31 | Forbidden_Integer | 151A | If we have 1, we can make any possible integer, if not it depends on the parity of n, if even we can simply use 2s if  they are available and if odd combine 2s and 3s if 3 are available else print No. | Apr 08 | ⏳ |
 | Mar 24 | CP31 | Desorting | 887A | Kept thinking 2/2=0 lol. To make array unsorted we need to find min non-negative diff adjacent pair of elements. We can derive the answer from the diff. | Apr 07 | ⏳ |
 | Mar 24 | KENKOOO | 1_21 | ABC086B | Easy simulation. Loop only for n//2 iterations. | Apr 07 | ⏳ |
 | Mar 23 | CP31 | Array_Coloring | 891A | Struggled and overcomplicated with nested if conditions. Parity of an array or set changes if odd element is added to it. So number of odd elements will decide we can split the array or set into two equal parity array or set. Num of odd elements should be even. | Apr 06 | ⏳ |
