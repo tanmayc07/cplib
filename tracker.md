@@ -1,5 +1,10 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mar 28 | ATCODER | Illegal | A |  | Apr 11 | ⏳ |
+| Mar 27 | CP31 | Coins | EDU146A | (n-k) check decides if we can use the even component with the odd to make the integer. | Apr 10 | ⏳ |
+| Mar 27 | CP31 | Blank_Space | 871B | Simple simulation and counting. | Apr 10 | ⏳ |
+| Mar 27 | CP31 | Twin_Permutations | 875A | The constraint that we need a1+b1<=a2+b2... implies that we can just make every sum equal to each other. | Apr 10 | ⏳ |
+| Mar 26 | CP31 | Unit_Array | 879A | We need to calculate the number of flips to make count of -1s equal or less than 1s and then depending on the parity of negative numbers, we might need to add 1 more flip. | Apr 10 | ⏳ |
 | Mar 26 | CP31 | Grasshopper_On_A_Line | EDU149A | Since the constraint is about divisor of x, if x is divisible by k, we can simply form a pair using (k+1,x-k-1) giving us min elements as 2, and if it is not divisible then we can  directly jump to x. If x itself is smaller than k, then we can directly jump to x. | Apr 09 | ⏳ |
 | Mar 25 | CP31 | Forbidden_Integer | 151A | If we have 1, we can make any possible integer, if not it depends on the parity of n, if even we can simply use 2s if  they are available and if odd combine 2s and 3s if 3 are available else print No. | Apr 08 | ⏳ |
 | Mar 24 | CP31 | Desorting | 887A | Kept thinking 2/2=0 lol. To make array unsorted we need to find min non-negative diff adjacent pair of elements. We can derive the answer from the diff. | Apr 07 | ⏳ |
@@ -30,4 +35,4 @@ needs to be initialized properly. | Apr 04 | ⏳ |
 | Mar 15 | CP31 | Game_With_Integers | 909A | Since vanya moves first always, checking the remainder of n gives 2 possibilities - 1,2. In both cases vanya can win either by subtracting 1 or adding 1 to make it divisible by 3. I missed this part because I thought vanya would add 1 always and then how will it be divisible by 3 then. If the remainder is 0 then it means vova will win since if vanya adds or subtracts, it will not be divisible by 3 and vova would simply undo it. | Mar 29 | ⏳ |
 | Mar 14 | CP31 | Line_Trip | 1901A | Max gap logic; 2*(x-last) for the final leg. | Mar 28 | ⏳ |
 | Mar 14 | CP31 | Cover_In_Water | 911A | if x-i, x+i cells are filled with water then because of constraint 2, we can always replace other empty cells with water from x because it will keep getting refilled from x-i and x+i | Mar 28 | ⏳ |
-| Mar 14 | CP31 | Halloumi_Boxes | 1903A | If k >= 2, can always sort; else must be sorted. | Mar 27 | ⏳ |
+| Mar 14 | CP31 | Halloumi_Boxes | 1903A | If k >= 2, can always sort; else must be sorted. | Mar 27 | ✅ |
