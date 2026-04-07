@@ -1,6 +1,8 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Apr 01 | CP31 | Make_It_Beautiful | EDU141A |  | Apr 15 | ⏳ |
+| Apr 06 | CP31 | Extremely_Round | EDU139A | Simply adjust the step in loop after i>=10 to always take the numbers with only one non-zero digit. | Apr 20 | ⏳ |
+| Apr 03 | CP31 | Everybody_Likes_Good_Arrays | 845A | We are not asked to actually return the final array by mutating it, so we can simply linearly traverse the array and keep a count if we need to do the operation. | Apr 17 | ⏳ |
+| Apr 01 | CP31 | Make_It_Beautiful | EDU141A | If there are no distict numbers in the array, we can't make it beautiful. We can check for distinct numbers by simply checking min and max because we simply need the min and max to be diff to make it beautiful. | Apr 15 | ⏳ |
 | Mar 31 | CP31 | One_And_Two | 851A | Since we cannot store 2^1000 in long long or any type, we need to do prefix calc because we only have 2s we can count 2s and use it to get the index. | Apr 14 | ⏳ |
 | Mar 31 | CP31 | Prepend_And_Append | 849C | Simple loop to check each end and update the min length. | Apr 14 | ⏳ |
 | Mar 31 | KENKOOO | Power_Socket | ABC139_B | Missed the point that we start with 1 outlet and keep adding a. | Apr 14 | ⏳ |
@@ -22,12 +24,12 @@
 | Mar 21 | ATCODER | Split_Ticketing | ABC450B | Easy simulation to check if the cost is maximum but the matrix
 needs to be initialized properly. | Apr 04 | ⏳ |
 | Mar 20 | CP31 | United_We_Stand | 892A | As per the constraints, since we want both of the arrays to be non-empty and only c array has constraint that it should not contain divisor of any element in b, we can just fill b with minimum element from a array and repeat it for all occurrences since we can't add it to c. | Apr 03 | ⏳ |
-| Mar 20 | CP31 | Sequence_Game | 894B | Since the first element will always be fixed, we can keep checking if the next element is smaller than or equal to previous element and if it isn't we can just repeat the current element in our result array. | Apr 03 | ⏳ |
-| Mar 20 | KENKOOO | Bishop | PANASONIC2020B | Since bishop can only move diagonally, atleast half of the grid's cells can be covered implies the formula. Edge case is when h==1 or w==1 then we don't have diagonals. | Apr 03 | ⏳ |
-| Mar 19 | CP31 | Ambitious_Kid | COMPFEST15A | Since we want the product to be 0, we need an element which is closest to 0, implies that we need to find a absolute min element (m = min(m, abs(e))). | Apr 02 | ⏳ |
-| Mar 19 | CP31 | Target_Practice | 898C | Instead of hardcoding the if conditions which is not scalable for arbitrary N, we can simply find horizontal and vertical distance of X in the grid which is just min(i, N-i, j, N-j) and add 1 to it for the points tally. | Apr 02 | ⏳ |
-| Mar 19 | KENKOOO | Can_You_Solve_This | ABC121B | Easy simulation, just loop and check it. | Apr 02 | ⏳ |
-| Mar 19 | KENKOOO | Tax_Rate | SUMITB2019B | We can go from 1 to N and multiply with 1.08 to check if it is equal to N. I used round() to round X but round() is not good to use. int() helps in rounding to nearest integer which is a floor function. | Apr 02 | ⏳ |
+| Mar 20 | CP31 | Sequence_Game | 894B | Since the first element will always be fixed, we can keep checking if the next element is smaller than or equal to previous element and if it isn't we can just repeat the current element in our result array. | Apr 03 | ✅ |
+| Mar 20 | KENKOOO | Bishop | PANASONIC2020B | Since bishop can only move diagonally, atleast half of the grid's cells can be covered implies the formula. Edge case is when h==1 or w==1 then we don't have diagonals. | Apr 03 | ✅ |
+| Mar 19 | CP31 | Ambitious_Kid | COMPFEST15A | Since we want the product to be 0, we need an element which is closest to 0, implies that we need to find a absolute min element (m = min(m, abs(e))). | Apr 02 | ✅ |
+| Mar 19 | CP31 | Target_Practice | 898C | Instead of hardcoding the if conditions which is not scalable for arbitrary N, we can simply find horizontal and vertical distance of X in the grid which is just min(i, N-i, j, N-j) and add 1 to it for the points tally. | Apr 02 | ✅ |
+| Mar 19 | KENKOOO | Can_You_Solve_This | ABC121B | Easy simulation, just loop and check it. | Apr 02 | ✅ |
+| Mar 19 | KENKOOO | Tax_Rate | SUMITB2019B | We can go from 1 to N and multiply with 1.08 to check if it is equal to N. I used round() to round X but round() is not good to use. int() helps in rounding to nearest integer which is a floor function. | Apr 02 | ✅ |
 | Mar 18 | KENKOOO | Qualification_Simulator | CODEFEST2016B | Easy Simulation of the problem because we can do it linearly and satisfies the constraints. | Apr 01 | ✅ |
 | Mar 18 | CP31 | Goals_Of_Victory | 902A | Purely observational, because sum(efficiencies)=0 as the number of goals scored for every team minus their opponent should cancel out each other. It is a zero sum property problem. | Apr 01 | ✅ |
 | Mar 18 | CP31 | How_Much_Does_Daytona_Cost | 900A | We just check for existence of element of in array since a subsegment of length 1 with the target element will always satisfy most common constraint and even the sample TC confirm it. | Apr 01 | ✅ |
