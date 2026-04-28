@@ -1,5 +1,7 @@
 | Date | Platform | Problem Name | Problem ID | Note/Trick | Resolve Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Apr 17 | PRAC | The Equalizer | 2217A | Parity problem | Apr 21 | ⏳ |
+| Apr 07 | CP31 | Two_Permutations | PINELYR1A | Since we need to create two permutations with same prefix and suffix, we need atleast two elements after fixing the prefix and suffix elements. The edge case that I missed was that if a==b==n, then by default prefix==suffix. | Apr 21 | ⏳ |
 | Apr 06 | CP31 | Extremely_Round | EDU139A | Simply adjust the step in loop after i>=10 to always take the numbers with only one non-zero digit. | Apr 20 | ⏳ |
 | Apr 03 | CP31 | Everybody_Likes_Good_Arrays | 845A | We are not asked to actually return the final array by mutating it, so we can simply linearly traverse the array and keep a count if we need to do the operation. | Apr 17 | ⏳ |
 | Apr 01 | CP31 | Make_It_Beautiful | EDU141A | If there are no distict numbers in the array, we can't make it beautiful. We can check for distinct numbers by simply checking min and max because we simply need the min and max to be diff to make it beautiful. | Apr 15 | ⏳ |
@@ -15,15 +17,14 @@
 | Mar 26 | CP31 | Grasshopper_On_A_Line | EDU149A | Since the constraint is about divisor of x, if x is divisible by k, we can simply form a pair using (k+1,x-k-1) giving us min elements as 2, and if it is not divisible then we can  directly jump to x. If x itself is smaller than k, then we can directly jump to x. | Apr 09 | ⏳ |
 | Mar 25 | CP31 | Forbidden_Integer | 151A | If we have 1, we can make any possible integer, if not it depends on the parity of n, if even we can simply use 2s if  they are available and if odd combine 2s and 3s if 3 are available else print No. | Apr 08 | ⏳ |
 | Mar 24 | CP31 | Desorting | 887A | Kept thinking 2/2=0 lol. To make array unsorted we need to find min non-negative diff adjacent pair of elements. We can derive the answer from the diff. | Apr 07 | ⏳ |
-| Mar 24 | KENKOOO | 1_21 | ABC086B | Easy simulation. Loop only for n//2 iterations. | Apr 07 | ⏳ |
+| Mar 24 | KENKOOO | 1_21 | ABC086B | Easy simulation. Loop only for n//2 iterations. | Apr 07 | ✅ |
 | Mar 23 | CP31 | Array_Coloring | 891A | Struggled and overcomplicated with nested if conditions. Parity of an array or set changes if odd element is added to it. So number of odd elements will decide we can split the array or set into two equal parity array or set. Num of odd elements should be even. | Apr 06 | ⏳ |
-| Mar 23 | CP31 | Buttons | 893A | Depends on c. The idea is that to win the game, either of them needs to have total buttons greater than the other person has. if c is odd and a>=b, a wins else b wins, and if c is even and a>b, a wins else b wins. | Apr 06 | ⏳ |
-| Mar 23 | KENKOOO | Bingo | ABC157B | Just loop over the grid and mark if the given numbers exist in a seperate array. Then we can use this new array to figure out. Struggling with kind of grid problems. | Apr 06 | ⏳ |
-| Mar 22 | CF | Bus_Lanes | CodeSquareRound1B | Was able to come up with the logic but did it brute force and got TLE. It uses prefix sum range update technique aka difference array. | Apr 05 | ⏳ |
-| Mar 21 | CF | Flip_Flops | DIV21087A | The constraint that combat power of monsters can be raised using k and that it can be only raised till a[i]<=C means that we should sort the array first and then calculate the combat power value increase for OtterZ using min(k, C-arr[i]) | Apr 04 | ⏳ |
-| Mar 21 | ATCODER | Split_Ticketing | ABC450B | Easy simulation to check if the cost is maximum but the matrix
-needs to be initialized properly. | Apr 04 | ⏳ |
-| Mar 20 | CP31 | United_We_Stand | 892A | As per the constraints, since we want both of the arrays to be non-empty and only c array has constraint that it should not contain divisor of any element in b, we can just fill b with minimum element from a array and repeat it for all occurrences since we can't add it to c. | Apr 03 | ⏳ |
+| Mar 23 | CP31 | Buttons | 893A | Depends on c. The idea is that to win the game, either of them needs to have total buttons greater than the other person has. if c is odd and a>=b, a wins else b wins, and if c is even and a>b, a wins else b wins. | Apr 06 | ✅ |
+| Mar 23 | KENKOOO | Bingo | ABC157B | Just loop over the grid and mark if the given numbers exist in a seperate array. Then we can use this new array to figure out. Struggling with kind of grid problems. | Apr 06 | ✅ |
+| Mar 22 | CF | Bus_Lanes | CodeSquareRound1B | Was able to come up with the logic but did it brute force and got TLE. It uses prefix sum range update technique aka difference array. | Apr 05 | ✅ |
+| Mar 21 | CF | Flip_Flops | DIV21087A | The constraint that combat power of monsters can be raised using k and that it can be only raised till a[i]<=C means that we should sort the array first and then calculate the combat power value increase for OtterZ using min(k, C-arr[i]) | Apr 04 | ✅ |
+| Mar 21 | ATCODER | Split_Ticketing | ABC450B | Easy simulation to check if the cost is maximum but the matrix needs to be initialized properly. | Apr 04 | ✅ |
+| Mar 20 | CP31 | United_We_Stand | 892A | As per the constraints, since we want both of the arrays to be non-empty and only c array has constraint that it should not contain divisor of any element in b, we can just fill b with minimum element from a array and repeat it for all occurrences since we can't add it to c. | Apr 03 | ✅ |
 | Mar 20 | CP31 | Sequence_Game | 894B | Since the first element will always be fixed, we can keep checking if the next element is smaller than or equal to previous element and if it isn't we can just repeat the current element in our result array. | Apr 03 | ✅ |
 | Mar 20 | KENKOOO | Bishop | PANASONIC2020B | Since bishop can only move diagonally, atleast half of the grid's cells can be covered implies the formula. Edge case is when h==1 or w==1 then we don't have diagonals. | Apr 03 | ✅ |
 | Mar 19 | CP31 | Ambitious_Kid | COMPFEST15A | Since we want the product to be 0, we need an element which is closest to 0, implies that we need to find a absolute min element (m = min(m, abs(e))). | Apr 02 | ✅ |
